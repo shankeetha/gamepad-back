@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.status(200).json({ message: "Welcome to GAMEPAD API" });
 });
 
-// List of games all
+// List of games
 
 app.get("/games", async (req, res) => {
   console.log("games");
